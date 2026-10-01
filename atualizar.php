@@ -16,7 +16,7 @@
                 status = ?
             WHERE id = ?";
     
-    $stmt = conexao -> prepare($sql);
+    $stmt = $conexao -> prepare($sql);
     $stmt -> bind_param(
         "sssssi",
         $cliente,
