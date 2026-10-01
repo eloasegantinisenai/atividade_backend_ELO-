@@ -1,7 +1,7 @@
 <?php
     include "config/conexao.php";
 
-    $id = intval($_POST)
+    $id = intval($_POST["id"]);
     $cliente = $_POST["cliente"];
     $equipamento = $_POST["equipamento"];
     $problema = $_POST["problema"];
